@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <!-- Primary route colors -->
-  <color name="mapbox_navigation_route_layer_blue">#4882C6</color>
+  <color name="mapbox_navigation_route_layer_blue">#4597FF</color>
   <color name="mapbox_navigation_route_layer_congestion_yellow">#FFAB65</color>
-  <color name="mapbox_navigation_route_layer_congestion_red">#E85552</color>
-  <color name="mapbox_navigation_route_shield_layer_color">#2C5F99</color>
+  <color name="mapbox_navigation_route_layer_congestion_red">#E6000000</color>
+  <color name="mapbox_navigation_route_shield_layer_color">#386FDF</color>
 
   <!-- Alternative route colors -->
   <color name="mapbox_navigation_route_alternative_color">#8694A5</color>
@@ -14,16 +14,16 @@
 
   <!-- Default Light Theme -->
   <color name="mapbox_navigation_view_color_primary">#FFFFFF</color>
-  <color name="mapbox_navigation_view_color_secondary">#28353D</color>
-  <color name="mapbox_navigation_view_color_accent">#4882C6</color>
+  <color name="mapbox_navigation_view_color_secondary">#5F5F5F</color>
+  <color name="mapbox_navigation_view_color_accent">#4285F4</color>
   <color name="mapbox_navigation_view_color_primary_text">#424242</color>
-  <color name="mapbox_navigation_view_color_accent_text">#424242</color>
+  <color name="mapbox_navigation_view_color_accent_text">#757575</color>
 
-  <color name="mapbox_navigation_view_color_list_background">#2D3F53</color>
+  <color name="mapbox_navigation_view_color_list_background">#0E7C46</color>
 
-  <color name="mapbox_navigation_view_color_banner_background">#37516F</color>
+  <color name="mapbox_navigation_view_color_banner_background">#0F9D58</color>
   <color name="mapbox_navigation_view_color_banner_primary_text">#FFFFFF</color>
-  <color name="mapbox_navigation_view_color_banner_secondary_text">#E6FFFFFF</color>
+  <color name="mapbox_navigation_view_color_banner_secondary_text">#D9FFFFFF</color>
   <color name="mapbox_navigation_view_color_banner_maneuver_primary">#FFFFFF</color>
   <color name="mapbox_navigation_view_color_banner_maneuver_secondary">#4DFFFFFF</color>
 
