@@ -7,4 +7,98 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <style name="CustomNavigationMapRoute" parent="@style/NavigationMapRoute">
+
+        <!-- Main color for the route line -->
+        <item name="routeColor">#4597FF</item>
+        <!-- Outline color for the route line -->
+        <item name="routeShieldColor">#386FDF</item>
+
+        <!-- Color for moderate traffic along the route line -->
+        <item name="routeModerateCongestionColor">#FFAB65</item>
+        <!-- Color for severe traffic along the route line -->
+        <item name="routeSevereCongestionColor">#E60000</item>
+
+        <!-- Scales -->
+        <item name="routeScale">1.0</item>
+    </style>
+
+    <style name="CustomNavigationMapRouteDark" parent="@style/NavigationMapRoute">
+
+        <!-- Colors -->
+        <item name="routeColor">#4285F4</item>
+        <item name="routeModerateCongestionColor">#C06A0B</item>
+        <item name="routeSevereCongestionColor">#E1130B</item>
+        <item name="routeShieldColor">#214A90</item>
+
+        <!-- Scales -->
+        <item name="routeScale">1.0</item>
+    </style>
+
+    <style name="CustomNavigationViewLight" parent="@style/NavigationViewLight">
+        <!-- The main turn banner view at the top of the screen -->
+
+        <!-- Background color of the banner -->
+        <item name="navigationViewBannerBackground">#0F9D58</item>
+        <!-- Color for the primary label that displays the turn name -->
+        <item name="navigationViewBannerPrimaryText">#FFFFFF</item>
+        <!-- Color for the seconary label that occasionally appears underneath the primary label -->
+        <item name="navigationViewBannerSecondaryText">#D9FFFFFF</item>
+        <!-- Primary color for the turn arrow icons-->
+        <item name="navigationViewBannerManeuverPrimary">#FFFFFF</item>
+        <!-- Secondary color for the turn arrow icons (e.g. the line segment that forks off) -->
+        <item name="navigationViewBannerManeuverSecondary">#4DFFFFFF</item>
+
+        <!-- Alternate background color for the dropdown list of upcoming steps -->
+        <item name="navigationViewListBackground">#0E7C46</item>
+
+
+        <!-- The summary view along the bottom of the screen -->
+
+        <!-- Background color of the summary view -->
+        <item name="navigationViewPrimary">#FFFFFF</item>
+        <!-- Tint color for icons in the summary view -->
+        <item name="navigationViewSecondary">#5F5F5F</item>
+        <!-- Accent color for elements such as the recenter button -->
+        <item name="navigationViewAccent">#4285F4</item>
+        <!-- Color for the main duration label in the summary view -->
+        <item name="navigationViewPrimaryText">#424242</item>
+        <!-- Color for the secondary distance and ETA label in the summary view -->
+        <item name="navigationViewSecondaryText">#757575</item>
+
+
+        <!-- Custom colors for progress bars displayed during navigation -->
+        <item name="navigationViewProgress">#0F9D58</item>
+        <item name="navigationViewProgressBackground">#0E7C46</item>
+
+        <!-- Custom colors for the route line and traffic -->
+        <item name="navigationViewRouteStyle">@style/CustomNavigationMapRoute</item>
+
+        <!-- Map style -->
+        <item name="navigationViewMapStyle">mapbox://styles/aparlato/cja4bj4vk2ha52spjoevv585s</item>
+    </style>
+
+    <style name="CustomNavigationViewDark" parent="@style/NavigationViewDark">
+        <item name="navigationViewBannerBackground">#0F9D58</item>
+        <item name="navigationViewBannerPrimaryText">#FFFFFF</item>
+        <item name="navigationViewBannerSecondaryText">#D9FFFFFF</item>
+        <item name="navigationViewBannerManeuverPrimary">#FFFFFF</item>
+        <item name="navigationViewBannerManeuverSecondary">#4DFFFFFF</item>
+
+        <item name="navigationViewListBackground">#0E7C46</item>
+
+        <item name="navigationViewPrimary">#212121</item>
+        <item name="navigationViewSecondary">#D8D8D8</item>
+        <item name="navigationViewAccent">#4285F4</item>
+        <item name="navigationViewPrimaryText">#D8D8D8</item>
+        <item name="navigationViewSecondaryText">#A4A4A4</item>
+
+        <item name="navigationViewProgress">#0F9D58</item>
+        <item name="navigationViewProgressBackground">#0E7C46</item>
+
+        <item name="navigationViewRouteStyle">@style/CustomNavigationMapRouteDark</item>
+
+        <item name="navigationViewMapStyle">mapbox://styles/aparlato/cja4fix052ktl2spjr3lgbe9d</item>
+    </style>
 </resources>
